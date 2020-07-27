@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(bg2.jpg);
+}
+.head{
+    margin: 0;
+    font-size: 20pt;
+}
+.head2 {
+    font-size: 22pt;
+    font-weight: bold;
+}
+.maintodo{
+    min-height: 70vh;
+}
+

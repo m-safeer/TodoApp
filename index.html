@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Todo-Application</title>
+</head>
+<body>
+    <nav class="navbar bg-success">
+        <a class="navbar-brand">
+            <img src="icon.png" width="50" height="50" class="d-inline-block align-middle" alt="">
+            <h1 class="d-inline-block align-middle text-white head"> Todo App </h1>
+        </a>
+    </nav>
+
+    <div class="container">
+        <div class="mx-auto mt-4 p-4 shadow-lg bg-white col-lg-4 col-sm-12 maintodo">
+            <h1 class="text-center head2">Todo List</h1>
+            <div class="mt-4">
+                <input placeholder="Enter Task" type="text" id="todo" class="form-control w-100">
+                <center>
+                    <button class="btn border shadow mt-3 mx-3" onclick="addTodo()">Add Item</button>
+                    <button class="btn border shadow mt-3 mx-3" onclick="delAll()">Delete All</button>
+                </center>
+                <ul id="list" class="mt-4 text-center list-unstyled"></ul>
+            </div>
+        </div>
+    </div>
+
+    
+<script src="script.js"></script>
+</body>
+</html>
