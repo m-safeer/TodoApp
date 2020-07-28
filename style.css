@@ -18,4 +18,9 @@ body{
 .maintodo{
     min-height: 70vh;
 }
+.itempara {
+    display: inline-block;
+    width: 55%;
+    text-align: center;
+}
 
